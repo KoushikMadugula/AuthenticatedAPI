@@ -1,0 +1,6 @@
+@AuthenticatedAPI_Koushik_HostAddress = http://localhost:5214
+
+GET {{AuthenticatedAPI_Koushik_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
