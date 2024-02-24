@@ -1,3 +1,4 @@
+namespace AuthenticatedAPI_Library;
 public class Product
 {
     public int Id { get; set; }

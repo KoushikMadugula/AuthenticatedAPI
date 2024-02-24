@@ -1,3 +1,5 @@
+namespace AuthenticatedAPI_Library;
+
 public class Category
 {
     public int Id { get; set; }

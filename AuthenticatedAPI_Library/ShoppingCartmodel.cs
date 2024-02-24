@@ -1,3 +1,4 @@
+namespace AuthenticatedAPI_Library;
 public class ShoppingCart
 {
     public int Id { get; set; }
