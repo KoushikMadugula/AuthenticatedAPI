@@ -11,4 +11,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AuthenticatedAPI_Library\AuthenticatedAPI_Library.csproj" />
+    <ProjectReference Include="..\AuthenticatedAPI_Test\AuthenticatedAPI_Test.csproj" />
+  </ItemGroup>
+
 </Project>
