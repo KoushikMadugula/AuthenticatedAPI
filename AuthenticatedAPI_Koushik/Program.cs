@@ -20,7 +20,7 @@ builder.Services.AddDbContext<AppSecurityContext>(
 builder.Services.AddAuthorization();
 
 builder.Services.AddIdentityApiEndpoints<IdentityUser>()
-        .AddEntityFrameworkStores<AppSecurityContext>
+        .AddEntityFrameworkStores<AppSecurityContext>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
